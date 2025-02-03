@@ -1,0 +1,6 @@
+// Example: Alert when the page loads
+window.onload = function () {
+    alert("Welcome to My Free Bookstore!");
+};
+
+// You can add more JavaScript functionality here if needed.

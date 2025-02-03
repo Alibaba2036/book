@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Free Bookstore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Free Bookstore</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#books">Books</a>
+            <a href="#donate">Donate</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <p>Explore our collection of free books and support us by donating.</p>
+    </section>
+
+    <section id="books">
+        <h2>Our Books</h2>
+        <ul>
+            <li><a href="books/book1.pdf" target="_blank">Book 1: The Adventure Begins</a></li>
+            <li><a href="books/book2.pdf" target="_blank">Book 2: The Mystery Unveiled</a></li>
+        </ul>
+    </section>
+
+    <section id="donate">
+        <h2>Support Us</h2>
+        <form action="https://www.paypal.com/donate" method="get" target="_blank">
+            <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID">
+            <button type="submit">Donate via PayPal</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Free Bookstore</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
